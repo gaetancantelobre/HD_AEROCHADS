@@ -1,0 +1,21 @@
+SIMU:
+- quad version algo : raycasting + 3D astar + visual representation of path and obsticales
+- fixed wing : reinforcement learning for projection of capsule via computer vision + maquette irl for flight algorithm
+    - super critical solid stuff -> crashing with parachute
+    - auto landing in net 
+
+STANDARD de classification des payload + zone de livrasion : 
+- modele de communication : GPS COORDINATES, WEIGHT, SIZE, time limit, hzard indicator (explosif, cold, hot, etc).
+
+IRL INTEGRATION :
+- flare recognition for med drop via loitering style naviagtion (no GNSS , no RADIO)
+    - for quadcopter version : same find flare smoke stack and stay as low as possible
+
+IRL MODEL : 
+    - PAYLOAD VENTRE
+    - PARACHUTE SYSTEM
+    - C02 launcher
+
+
+BONUS :
+- flight controller hardware design + 3D render
