@@ -5,7 +5,7 @@
   "idf.openOcdConfigs": [
     "board/esp32-wrover-kit-3.3v.cfg"
   ],
-  "idf.portWin": "COM4",
+  "idf.portWin": "COM8",
   "idf.toolsPathWin": "C:\\Users\\gaeta\\.espressif",
   "idf.customExtraVars": {
     "IDF_TARGET": "esp32c3"
@@ -16,5 +16,5 @@
     "--query-driver=C:\\Users\\gaeta\\.espressif\\tools\\riscv32-esp-elf\\esp-14.2.0_20241119\\riscv32-esp-elf\\bin\\riscv32-esp-elf-gcc.exe",
     "--compile-commands-dir=c:\\Users\\gaeta\\Documents\\GitHub\\HD_AEROCHADS\\loitering_muntion firmware\\loitering_munition\\build"
   ],
-  "idf.flashType": "JTAG"
+  "idf.flashType": "UART"
 }
